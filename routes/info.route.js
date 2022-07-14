@@ -12,4 +12,10 @@ module.exports = function (app) {
     [],
     controller.info
   )
+
+  app.get(
+    '/api/infoMain',
+    [],
+    controller.infoMain
+  )
 }
